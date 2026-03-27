@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ghid complet pentru dezactivarea Windows Search Indexer. Afla cum sa opresti indexer-ul prin CMD, Services, Registry sau Group Policy pentru a imbunatati performanta PC-ului.">
+    <meta name="keywords" content="dezactiveaza windows search, oprire indexare windows, indexer windows, optimizeaza pc, performanta windows, cmd windows search, registry windows search, group policy windows search">
+    <title>Cum sa dezactivezi Windows Search Indexer complet</title>
+</head>
+<body>
+    <h1>Cum sa dezactivezi Windows Search Indexer complet</h1>
+    <p>Ghid pas cu pas pentru dezactivarea completa a Windows Search Indexer pentru a imbunatati performanta PC-ului si a reduce consumul de resurse.</p>
+
+    <h2>1. Dezactivare prin Services.msc</h2>
+    <p>Invata cum sa opresti serviciul Windows Search Indexer folosind <strong>Services.msc</strong> si sa previi repornirea automata.</p>
+
+    <h2>2. Dezactivare prin CMD</h2>
+    <p>Tutorial complet pentru dezactivarea Windows Search Indexer din Command Prompt cu comenzi simple si sigure.</p>
+    <pre>
+net stop "Windows Search"
+sc config "WSearch" start=disabled
+    </pre>
+
+    <h2>3. Dezactivare temporara</h2>
+    <p>Afla cum sa dezactivezi temporar Windows Search Indexer fara a afecta permanent setarile sistemului.</p>
+
+    <h2>4. Dezactivare prin Registry</h2>
+    <p>Ghid pentru a opri Windows Search Indexer modificand Registry-ul Windows in siguranta.</p>
+    <pre>
+1. Apasa Win + R, tasteaza regedit si Enter.
+2. Navigheaza la HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WSearch
+3. Schimba valoarea Start la 4 pentru dezactivare permanenta.
+    </pre>
+
+    <h2>5. Dezactivare prin Group Policy</h2>
+    <p>Foloseste Editorul Group Policy pentru a dezactiva Windows Search Indexer pe toate PC-urile din retea sau local.</p>
+    <pre>
+1. Apasa Win + R, tasteaza gpedit.msc
+2. Computer Configuration > Administrative Templates > Windows Components > Search
+3. Activeaza "Prevent indexing" si aplica setarile.
+    </pre>
+
+    <h2>6. Dezactivare fara afectarea cautarii locale</h2>
+    <p>Metoda pentru a opri indexer-ul fara a pierde complet functia de cautare in Windows.</p>
+
+    <h2>7. Dezactivare in Windows 10</h2>
+    <p>Tutorial special pentru Windows 10 pentru oprirea Windows Search Indexer si reducerea consumului de resurse.</p>
+
+    <h2>8. Dezactivare in Windows 11</h2>
+    <p>Afla cum sa opresti indexer-ul Windows Search pe Windows 11 folosind metode sigure si eficiente.</p>
+
+    <h2>9. Verificarea statusului Windows Search Indexer</h2>
+    <p>Afla rapid daca Windows Search Indexer ruleaza si cum sa verific starea serviciului pe PC-ul tau.</p>
+    <pre>
+sc query WSearch
+    </pre>
+
+    <h2>10. Dezactivare pentru laptopuri cu SSD</h2>
+    <p>Sfaturi pentru a dezactiva Windows Search pe laptopurile cu SSD pentru a prelungi durata de viata si a imbunatati performanta.</p>
+
+    <h2>11. Dezactivare automata la pornire</h2>
+    <p>Configura Windows Search Indexer sa fie dezactivat automat la fiecare pornire a sistemului.</p>
+
+    <h2>12. Reducerea consumului de resurse</h2>
+    <p>Oprirea indexer-ului reduce consumul CPU si RAM si imbunatateste performanta generala a sistemului.</p>
+
+    <h2>13. Metode alternative</h2>
+    <p>Toate metodele posibile pentru a opri Windows Search Indexer: CMD, Services, Registry, Group Policy si aplicatii terte.</p>
+
+    <h2>14. Sfaturi finale pentru performanta maxima</h2>
+    <p>Combinarea metodelor de dezactivare cu optimizarea generala a sistemului pentru a obtine performanta maxima pe Windows.</p>
+
+    <h2>15. Resurse suplimentare</h2>
+    <p>Linkuri utile si tutoriale oficiale Microsoft pentru a intelege complet Windows Search Indexer si setarile sale.</p>
+
+</body>
+</html>
 
